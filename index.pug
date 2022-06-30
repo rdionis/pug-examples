@@ -8,4 +8,21 @@ html(lang="en")
     body 
         h1 Hello, world!
             .remark 
-            p Pug rocks!
+                p Pug rocks!
+
+        nav
+            navbar-default div
+                h1 My Website!
+            ul
+                li
+                    a(href="/") Home
+                li
+                    a(href="/page-1") Page 1
+                li
+                    a(href="/page-2") Page 2
+
+            input.search(
+                type="text"
+                name="search"
+                placeholder="Enter a search term..."
+            )             
